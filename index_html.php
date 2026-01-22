@@ -10,14 +10,17 @@
             <button>Insert teams</button>
         </form>
         <br>
-        <form action="php/select_team.php">
+        <form action="php/view_team.php">
             <button>View teams</button>
         </form>
         <br>
         <form action="php/insert_game_match.php">
             <button>Insert game match</button>
         </form>
-
+        <br>
+        <form action="php/view_game_match.php">
+            <button>View game match</button>
+        </form>
 
     </body>
 </html>

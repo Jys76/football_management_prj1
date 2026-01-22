@@ -10,7 +10,7 @@
         </form>
         <br>
 
-        <?php require "../view/team_table_view.php"; ?>
+        <?php require "../scheme/team_table_scheme.php"; ?>
 
         <?php if($message !== ""){echo($message);} ?>
     </body>

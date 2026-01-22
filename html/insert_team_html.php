@@ -18,7 +18,7 @@
             <button type="submit">Insert</button>
         </form>
         <br>
-        <p><?php if($message !== ""){echo $message;}?></p>
+        <p><?php if($message !== ""){echo htmlspecialchars($message);}?></p>
     </body>
 
 </html>
