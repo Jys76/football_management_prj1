@@ -9,7 +9,7 @@
             <button>Home page</button>
         </form>
         <br>
-        <?php require "../scheme/game_match_scheme.php"; ?>
+        <?php echo GenerateGameMatchTable($sql_result); ?>
         <?php if($message !== ""){ echo htmlspecialchars($message); } ?>
     </body>
 </html>

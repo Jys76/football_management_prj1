@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
+        <link rel="stylesheet" href="../css/view_team.css">
+        <meta charset="UTF-8">
         <title>View team</title>
-        <h1>View team page</h1>
+        <h1 id="title">View team</h1>
+        
     </head>
     <body>
         <form action="../index.php">
@@ -10,8 +13,7 @@
         </form>
         <br>
 
-        <?php require "../scheme/team_table_scheme.php"; ?>
-
+        <?php echo GenerateTableTeamTable($sql_result) ?>
         <?php if($message !== ""){echo($message);} ?>
     </body>
 </html>

@@ -2,4 +2,8 @@ SELECT t.name_team as team_1, tt.name_team as team_2, gm.gol_team_1, gm.gol_team
 FROM game_match gm
 JOIN team t ON gm.team_1_id = t.id
 JOIN team tt ON gm.team_2_id = tt.id
-ORDER BY t.name_team ASC
+ORDER BY t.name_team ASC;
+
+SELECT id, name_team FROM team ORDER BY name_team;
+
+SELECT id, name_team FROM team;
